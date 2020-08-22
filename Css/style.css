@@ -6,6 +6,14 @@ ul.a{
     margin-right:auto;
     margin-top:-10px;
     margin-bottom: 0px;
+    
+}
+.u1{
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:-10px;
+    margin-bottom: 0px;
+    display: none;   
 }
 .log{
     margin:0px auto -8px;
@@ -26,17 +34,17 @@ ul.a{
     font-size: larger;
 }
 .C1{
-    margin-left:20%;
-    font-family: 'MuseoModerno', cursive;
-    font-size: larger;
-}
-.C2{
     margin-left:auto;
     font-family: 'MuseoModerno', cursive;
     font-size: larger;
 }
+.C2{
+    margin-right:auto;
+    font-family: 'MuseoModerno', cursive;
+    font-size: larger;
+}
 .C3{
-    margin-left:70px;
+    margin-left:auto;
     font-family: 'MuseoModerno', cursive;
     font-size: larger;
 }
@@ -46,3 +54,140 @@ ul.a{
 .v1{
     margin-left:auto;
 }
+
+.revp{
+    display: none;
+}
+.image{
+    
+    width:500px;
+    height:500px;
+}
+body{
+    background-color: white;
+}
+.i1{
+    display:flex;
+    flex-flow:nowrap;
+    margin:auto;
+}
+.c{
+    text-align: center;
+    width:35%;
+    padding:10px;
+    font-size: medium;
+    margin-right:5%;
+    text-align: center;
+}
+.L{
+    font-size: 40px;
+    margin:5%
+}
+
+.L2{
+    font-size:25px;
+    margin:auto;
+    padding:20px;
+}
+.inp{
+    margin-top:20px;
+    text-align: center;
+}
+.im{
+    display: initial;
+    margin-left:5%;
+}
+.im2{
+    margin-left:2%;
+}
+.c1{
+    margin-top:-20%;
+}
+.rad{
+    border-radius: 10px;
+}
+.revi{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .image {
+      
+       height: 200px;
+       width:50px;
+    }
+    body{
+        background-color: red;
+    }
+    .u{
+        display: none;
+    }
+    .u1{
+           display:initial;
+    }
+    .im{
+        display:none;
+    }
+    .c{
+        text-align: center;
+    width:100%;
+    padding:10px;
+    font-size: medium;
+    margin-right:5%;
+    text-align: center;
+    }
+  }
+@media only screen and (max-width: 768px) {
+     .image{
+        height:350px;
+        width:350px;
+     }
+     .c{
+        text-align: center;
+        width:100%;
+        padding:10px;
+        font-size: medium;
+        margin-right:5%;
+        text-align: center;
+     }
+     .revi{
+         margin-top:50px;
+         width: 200px;
+         height: 300px;
+         display: initial;
+     }
+     .revp{
+        margin-top:50px;
+        width: 200px;
+        height: 300px;
+        display: initial;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .c{
+        text-align: center;
+        width:100%;
+        padding:10px;
+        font-size: medium;
+        margin-right:5%;
+        text-align: center;
+     }
+    .revi{
+        margin-top:50px;
+        width: 200px;
+        height: 300px;
+        display: initial;
+    }
+    
+  }
+  @media only screen and (max-width: 1440px) {
+    .im2{
+        margin-left:12%;
+    }
+    
+ }
+ @media only screen and (max-width: 1800px) {
+    .im2{
+        margin-left:18%;
+    }
+    
+ }

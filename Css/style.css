@@ -31,8 +31,7 @@ ul.a{
     font-size: larger;
 }
 .C2{
-
-    
+    margin-left:auto;
     font-family: 'MuseoModerno', cursive;
     font-size: larger;
 }
@@ -42,8 +41,8 @@ ul.a{
     font-size: larger;
 }
 .v{
-    margin-right:20%;
+    margin-right:auto;
 }
 .v1{
-    margin-left:20%;
+    margin-left:auto;
 }
